@@ -1,0 +1,29 @@
+{
+  "name": "Provision",
+  "version": "1.0.0",
+  "description": "Landing Page de cursos",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Carriello",
+  "license": "ISC",
+  "devDependencies": {
+    "animate.css": "^3.6.1",
+    "grunt": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "wowjs": "^1.1.3"
+  },
+  "dependencies": {
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^3.4.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "npm": "^5.7.1",
+    "swiper": "^7.0.6"
+  }
+}

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media (max-width: 510px) {
+  header a {
+    width: 70%;
+    height: auto;
+  }
+}
+@media (max-width: 510px) {
+  header img {
+    width: 100%;
+    height: auto;
+  }
+}
+#cta {
+  background: #eee;
+  background: linear-gradient(180deg, #eee 0%, #fff 100%);
+}
+#cta .container {
+  background-image: url("../images/cta-plane.png");
+  background-position: 150px top;
+  background-repeat: no-repeat;
+}
+#cta h2 {
+  color: #3c509e;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 4rem;
+}
+@media (max-width: 900px) {
+  #cta h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+#cta p {
+  color: #3c509e;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+@media (max-width: 900px) {
+  #cta p {
+    text-align: center;
+  }
+}
+#cta a {
+  color: #3c509e;
+  border: 2px solid #3c509e;
+  border-radius: 50rem;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1.5rem 2rem;
+  display: table;
+  text-transform: uppercase;
+  border-style: dashed;
+}
+@media (max-width: 900px) {
+  #cta a {
+    margin: 0 auto;
+  }
+}
+#cta img {
+  width: 100%;
+  height: auto;
+}

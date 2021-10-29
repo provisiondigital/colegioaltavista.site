@@ -1,0 +1,1 @@
+!function(n){var c=["(00) 00000-0000","(00) 0000-00009"];n(".phone").mask(c[1],{onKeyPress:function(n,o,e,t){e.mask(14<n.length?c[0]:c[1],t)}}),n(".second-button").on("click",function(){n(".animated-icon2").toggleClass("open")})}(jQuery);

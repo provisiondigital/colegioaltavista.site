@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$blue = #3c509e
+// $wine = #c91516
+$white = #ffffff
+$black = #131212
+
+title(n)
+    font-size n
+    // font-family 'Open Sans', sans-serif
+    // font-family 'Bebas Neue', cursive
+    font-family 'Poppins', sans-serif
+
+body
+    // title(2rem)
+
+header
+    a
+        @media (max-width: 510px)
+            width 70%
+            height auto
+    img
+        @media (max-width: 510px)
+            width 100%
+            height auto
+
+#cta
+    background rgb(238,238,238)
+    background linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%)
+    .container  
+        background-image url(../images/cta-plane.png)
+        background-position 150px top
+        background-repeat no-repeat
+    h2
+        color $blue
+        title(3rem)
+        font-weight 900
+        line-height 4rem
+        @media (max-width: 900px)
+            font-size 2rem
+            line-height 2.5rem
+            text-align center
+            margin-top 2rem
+    p
+        color $blue
+        font-size 1.5rem
+        margin 2rem 0
+        @media (max-width: 900px)
+            text-align center
+    a
+        color $blue
+        border 2px solid $blue
+        border-radius 50rem
+        font-weight bold
+        font-size 1rem
+        text-decoration none
+        padding 1.5rem 2rem
+        display table
+        text-transform uppercase
+        border-style dashed
+        @media (max-width: 900px)
+            margin 0 auto
+    img
+        width 100%
+        height auto
