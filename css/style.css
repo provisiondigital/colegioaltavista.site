@@ -68,3 +68,400 @@
   width: 100%;
   height: auto;
 }
+#menu a {
+  color: #3c509e;
+  font-size: 22px;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+#series {
+  background: #3c509e;
+  width: 100%;
+  padding: 40px;
+}
+#series-wrapper {
+  text-align: center;
+  padding: 40px;
+  width: 25%;
+  border: 2px dotted #fff;
+}
+#series-wrapper i {
+  font-size: 80px;
+  color: #fff;
+}
+#series-wrapper h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 2rem;
+}
+#series-wrapper p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+#series-wrapper a {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+#chamada-grid {
+  width: 100%;
+}
+#box-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#box-wrapper {
+  width: 33.3%;
+  margin: 10px;
+  background-color: rgba(60,80,158,0.302);
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #3c509e;
+  border-radius: 16px;
+}
+#box-wrapper i {
+  font-size: 4rem;
+  color: #3c509e;
+  padding: 2%;
+}
+#box-wrapper h3 {
+  font-size: 20px;
+  color: #3c509e;
+  margin-top: 2rem;
+}
+#box-wrapper p {
+  color: #3c509e;
+  font-size: 18px;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+}
+#row1 {
+  padding: 60px;
+}
+#row1 hr {
+  width: 100%;
+  height: 3px;
+}
+#footer-txt h5 {
+  color: #3c509e;
+  font-size: 26px;
+}
+#footer-txt p {
+  color: #1834a3;
+  font-size: 17px;
+  margin: 0;
+}
+#footer-content {
+  padding: 80px;
+  background: #eee;
+  background: linear-gradient(180deg, #eee 0%, #fff 100%);
+}
+#img-content img {
+  width: 100%;
+}
+#event {
+  padding: 4rem;
+}
+#event-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+#event-grid h2 {
+  color: #3c509e;
+  font-size: 80px;
+}
+#event-grid p {
+  color: #3c509e;
+  font-size: 30px;
+  font-weight: 300;
+}
+#form-contato {
+  padding: 5rem;
+}
+#form-grup {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+#form-grup {
+  width: 45%;
+}
+#form-grup h2 {
+  font-size: 35px;
+  color: #3c509e;
+}
+#form-grup a {
+  width: 30%;
+  margin: 10px;
+  border-radius: 16px;
+}
+.form-control {
+  border: 2px solid #3c509e;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#depoimentos {
+  background-color: #f90;
+  padding: 40px;
+}
+#group-depoimento {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#dep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#dep p {
+  margin-top: 3rem;
+  font-size: 18px;
+  color: #fff;
+  line-height: 2rem;
+  width: 60%;
+  text-align: center;
+}
+#escola-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+#escola-content h2 {
+  font-size: 40px;
+  color: #3c509e;
+  text-align: center;
+}
+#galeria {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#area1-txt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+#area1-txt h2 {
+  color: #3c509e;
+  font-size: 70px;
+  font-weight: bold;
+}
+#area1-txt p {
+  margin-top: 2rem;
+  color: #3c509e;
+  font-size: 30px;
+}
+#area2-txt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 0;
+}
+#area2-txt h2 {
+  color: #3c509e;
+  font-size: 70px;
+  font-weight: bold;
+}
+#area2-txt p {
+  margin-top: 2rem;
+  color: #3c509e;
+  font-size: 30px;
+}
+#area2-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px 0;
+}
+#area3 {
+  background: #c91516;
+  width: 100%;
+  padding: 40px;
+}
+#area3-wrapper {
+  text-align: center;
+  padding: 40px;
+}
+#area3-wrapper h2 {
+  color: #fff;
+  font-size: 4rem;
+}
+#area3-wrapper p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-width: 300;
+  border: 2px dotted #fff;
+  padding: 20px;
+  text-align: center;
+}
+#area4 {
+  padding: 40px;
+}
+#area4 p {
+  color: #3c509e;
+  font-size: 1.5rem;
+}
+#colapso {
+  padding: 40px;
+}
+#colapso-wrapper {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 3px dotted #f90;
+}
+#colapso-btn {
+  border: 3px dotted #3c509e;
+  border-radius: 100%;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3c509e;
+}
+#colapso-wrapper p {
+  color: #3c509e;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+#cartao {
+  color: #3c509e;
+  font-size: 1.5rem;
+  font-weight: 300;
+  border: none;
+}
+#tutoria {
+  padding: 40px;
+}
+#tutoria .container {
+  background-color: #3c509e;
+  padding: 40px;
+}
+#tutoria h2 {
+  font-size: 70px;
+  color: #fff;
+  margin-bottom: 6rem;
+  font-weight: bold;
+}
+#tutoria p {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 400;
+}
+#tutorias2 {
+  padding: 30px 0;
+}
+#grid-tutor {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#tutor-txt {
+  padding: 50px;
+  width: 50%;
+  background: #3c509e;
+  color: #fff;
+}
+#tutor-txt h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+#tutor-txt p {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+#area4 h2 {
+  color: #3c509e;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+#slide-img img {
+  width: 100%;
+  height: 800px;
+}
+#card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+#card-wrapper h2 {
+  text-align: center;
+  color: #3c509e;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#card-wrapper p {
+  text-align: center;
+  color: #3c509e;
+  font-size: 25px;
+  font-weight: 400;
+}
+#title-grid h1 {
+  color: #3c509e;
+  font-size: 80px;
+  font-weight: bold;
+}
+#grid-main {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#grid-main a {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 40px;
+  text-transform: uppercase;
+}
+#form2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+#local {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#local i {
+  font-size: 29px;
+  margin-bottom: 2.5rem;
+}
+#card-2 i {
+  font-size: 60px;
+  color: #3c509e;
+}
+#card-2 h2 {
+  font-size: 20px;
+  margin-top: 1.5rem;
+}
